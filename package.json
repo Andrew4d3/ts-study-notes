@@ -7,9 +7,11 @@
   "private": true,
   "scripts": {
     "serve": "docsify serve docs --port 3000",
-    "build": "cp -r docs dist"
+    "build": "cp -r docs dist",
+    "generate-anki": "node scripts/generate-anki.mjs"
   },
   "devDependencies": {
-    "docsify-cli": "^4.4.4"
+    "docsify-cli": "^4.4.4",
+    "lz-string": "^1.5.0"
   }
 }
